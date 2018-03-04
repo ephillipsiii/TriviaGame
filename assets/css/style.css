@@ -5,3 +5,8 @@ body{
 .header{
     text-align: center;
 }
+
+.button{
+    text-align: center;
+    margin: auto;
+}
