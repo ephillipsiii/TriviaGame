@@ -13,86 +13,26 @@
 </head>
 
 <body>
-    <!-- creating the container -->
-    <div class="container-fluid">
-        <!-- header -->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="header">
-                    <h1>
-                        Random Trivia!
-                    </h1>
-                </div>
-            </div>
-        </div>
-        <!-- need to create start button -->
-        <div class="row">
-            <div class="col-md-4">
-            </div>
-                <button type="button" id="startButton" class="btn btn-default-lg col-md-4">
-                    Start
-                </button>
-            <div class="col-md-4">
-            </div>
+    <container>
+        <header>
+            <h1>
+                Trivia!
+            </h1>
+        </header>
+        <id="timer">
+            <p>
+                Time Remaining: 
+            </p>
+        </id>
+        <button>
+            Start
+        </button>
+        <section id=questions>
             
+        </section>
+    </container>
 
-
-
-            <!-- need to create a div for questions -->
-        <div class="row">
-            <div class="col-lg-2">
-                <!-- <div class="col-lg-8">
-                </div> -->
-                    <div id="questions" class="text-center col-lg-8">
-                        Questions go here!
-                    </div>
-                <div class="col-lg-2">
-                </div>
-            </div>
-        </div>
-        <!-- need to create a div for answer buttons -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="answerButtons">
-                    <div class="col-md-4">
-                        <button type="button" id="button0" class="btn btn-default-lg">
-                            Answer1
-                        </button>
-                    </div>
-                    <div class="col-md-4">
-                        <button type="button" id="button1" class="btn btn-default-lg">
-                            Answer2
-                        </button>
-                    </div>
-                    <div class="col-md-4">
-                        <button type="button" id="button2" class="btn btn-default-lg">
-                            Answer3
-                        </button>
-                    </div>
-                    <div class="col-md-4">
-                        <button type="button" id="button3" class="btn btn-default-lg">
-                            Answer4
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- need to create a way to check answers -->
-        <div class="answerCheck">
-
-        </div>
-        <!-- need a button/timer for answering -->
-        <div class="timer">
-
-        </div>
-        <!-- need a reset timer -->
-        <div class="reset timer">
-            <button type="button" id="resetButton" class="btn btn-default-lg">
-                Start Over
-            </button>
-
-        </div>
-    </div>
+       
     
 </body>
 </html>
