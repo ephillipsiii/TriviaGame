@@ -15,11 +15,18 @@ $(document).ready(function(){
             stop();
         }
     }   
+
+     //stop function
+        //if all done button pushed OR timer <=
+        //calculate correct answers
+        //calculate incorrect answers
+        //calculate unanswered
+        //display start over button
     function stop(){
         clearInterval(intervalId);
         } 
     })
-    console.log(run);
+    console.log(decrement);
 // start timer on click
 //populate questions class with questions
         //need to create questions array
@@ -29,11 +36,7 @@ $(document).ready(function(){
 //all done button
 //recognize all done button
     //stop function
-        //if all done button pushed OR timer <=
-        //calculate correct answers
-        //calculate incorrect answers
-        //calculate unanswered
-        //display start over button
+        
 
     
     });
