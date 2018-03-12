@@ -1,36 +1,44 @@
 $(document).ready(function(){
-    $('#startButton').on("click", function(){
-//remove start button on click
-
-//populate question div with a random question from the pool oin html
-
-//populate each answer button with an answer from the the questions pool in html
-
-//start timer for each question
-//update html with timer
-
-//recognize user click
-
-//if correct, update score
-//if correct, show correct answer and maybe gif
-//if correct, reset timer
-//if correct, chose new question and update html and buttons
-
-
-//if incorrect, update score
-//if incorrect, show correct answer and maybe loosing gif
-//if incorrect reset timer
-//if incorrect, chose new question and update html and buttons
-
-//if no answer chosen, update score (unanswered)
-//if timer = 0, update score(unanswered)
-//after all questions run through, update final scores
-//present win/lose gif
-//present start over button
-//start over button resets the game
+    $('#startButton').on("click", function(run){
+// create a timer
+// start timer on click
+    var number = 3;
+    var intervalID;
+    function run(){
+        clearInterval(intervalId);
+        intervalID = setInterval(decrement, 1000);
+    }
+    function decrement(){
+        number--;
+        $('#timer').html('<p>' + number + '<p>');
+        if (number === 0) {
+            stop();
+        }
+    }   
+    function stop(){
+        clearInterval(intervalId);
+        } 
     })
+    console.log(run);
+// start timer on click
+//populate questions class with questions
+        //need to create questions array
+        //need to create answers array
+//populate with potential answers
+//recognize on click for each answer
+//all done button
+//recognize all done button
+    //stop function
+        //if all done button pushed OR timer <=
+        //calculate correct answers
+        //calculate incorrect answers
+        //calculate unanswered
+        //display start over button
+
+    
+    });
 
 
 
 
-});
+;
